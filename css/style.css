@@ -1,0 +1,26 @@
+
+.hero-section {
+    background: url("../img/ciber.jpg") no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    color: rgba(255, 255, 255, 0.549);
+}
+
+#casosRealesCarousel .carousel-item {
+    height: 200px;
+}
+#casosRealesCarousel .carousel-caption {
+    background-color: rgba(248, 249, 250, 0.8);
+    color: #333;
+    border-radius: 10px;
+    bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 40vh;
+    }
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}

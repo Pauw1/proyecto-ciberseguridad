@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amenazas Comunes | Ciberseguridad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CyberSafe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="amenazas.html">Amenazas Comunes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos de Seguridad</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <h2 class="text-center mb-4">Amenazas Cibernéticas Comunes</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Phishing</h5>
+                        <p class="card-text">Engaño para robar información confidencial (contraseñas, datos bancarios) haciéndose pasar por una entidad de confianza.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ransomware</h5>
+                        <p class="card-text">Software malicioso que cifra los archivos del usuario y exige un rescate para recuperarlos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Malware</h5>
+                        <p class="card-text">Software diseñado para dañar o infiltrarse en un sistema sin el consentimiento del propietario.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ataques DDoS</h5>
+                        <p class="card-text">Intento de hacer que un servicio en línea no esté disponible al abrumarlo con tráfico de múltiples fuentes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="text-center mt-5 mb-4">Casos Reales</h3>
+        <div id="casosRealesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block text-dark bg-light p-3 rounded">
+                        <h5>WannaCry (2017)</h5>
+                        <p>Un ataque masivo de ransomware que afectó a más de 200,000 computadoras en 150 países, paralizando hospitales y empresas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block text-dark bg-light p-3 rounded">
+                        <h5>Ataque a SolarWinds (2020)</h5>
+                        <p>Un sofisticado ataque de malware que comprometió a miles de organizaciones gubernamentales y privadas a nivel mundial.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#casosRealesCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#casosRealesCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </main>
+    
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2025 CyberSafe. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
