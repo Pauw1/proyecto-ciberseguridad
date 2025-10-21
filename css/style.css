@@ -3,7 +3,7 @@
     background: url("../img/ciber.jpg") no-repeat center center;
     background-size: cover;
     height: 60vh;
-    color: rgba(255, 255, 255, 0.549);
+    color: rgb(255, 255, 255);
 }
 
 #casosRealesCarousel .carousel-item {
